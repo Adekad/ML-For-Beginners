@@ -1,17 +1,19 @@
+import nltk
+nltk.download('punkt')
 import random
 
 # This list contains the random responses (you can add your own or translate them into your own language too)
-random_responses = ["That is quite interesting, please tell me more.",
-                    "I see. Do go on.",
-                    "Why do you say that?",
-                    "Funny weather we've been having, isn't it?",
-                    "Let's change the subject.",
-                    "Did you catch the game last night?"]
+random_responses = ["C'est assez intéressant, s'il vous plaît dites-m'en plus.",
+                    "Je vois. Continuez.",
+                    "Pourquoi dites-vous cela?",
+                    "Drôle de temps que nous avons eu, n'est-ce pas ?",
+                    "Changeons de sujet.",
+                    "Avez-vous vu le match hier soir ?"]
 
-print("Hello, I am Marvin, the simple robot.")
-print("You can end this conversation at any time by typing 'bye'")
-print("After typing each answer, press 'enter'")
-print("How are you today?")
+print("Bonjour, je suis Marvin, le robot simple.")
+print("Vous pouvez mettre fin à cette conversation à tout moment en tapant 'bye'")
+print("Après avoir tapé chaque réponse, appuyez sur 'enter'")
+print("Comment vas-tu aujourd'hui?")
 
 while True:
     # wait for the user to enter some text
